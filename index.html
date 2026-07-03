@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>APEC Login Page</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:320px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width:100px;
+    margin-bottom:10px;
+}
+
+h2{
+    margin:10px 0;
+    color:#2a5298;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#2a5298;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e3c72;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PUT YOUR LOGO FILE NAME HERE -->
+    <img src="apec-logo.png" class="logo" alt="APEC Logo">
+
+    <h2>Welcome APEC 🎓</h2>
+
+    <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+</div>
+
+</body>
+</html>
